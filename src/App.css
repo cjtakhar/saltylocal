@@ -34,7 +34,8 @@
   flex-direction: row;
   align-items: center;
   width: 100%;
-  padding: 5%; 
+  padding: 5%;
+ 
 }
 
 .articleTitle {
@@ -61,10 +62,12 @@
   (min-width: 375px) and (max-width: 414px), /* iPhone 6+/7+/8+ */
   (min-width: 414px) and (max-width: 575px) { /* iPhone X/XS/11 Pro, XR/11, XS Max/11 Pro Max */
   
+  .article-container {
+    height: 100vh;
+  }
   .articleOne {
     flex-direction: column;
     align-items: center;
-    margin-top: 30rem;
   }
   
   .articleTitle {
@@ -90,10 +93,13 @@
     margin-right: 2vw;
   }
 
+  .article-container {
+    height: 100vh;
+  }
+
   .articleOne {
     flex-direction: column;
     align-items: center;
-    margin-top: 10rem;
   }
   
   .articleTitle {
@@ -113,8 +119,8 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .articleOne {
-    flex-direction: row;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
   }
   
   .articleTitle {
