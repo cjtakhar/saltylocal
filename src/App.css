@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+.nb {
+  padding: 2%;
+  font-family: 'Special Elite', cursive;
+  font-size: 1.5em;
+  color: black;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+
+.navbrand {
+  font-size: 2rem;
+  margin-left: 5%;
+}
+.nav-link {
+  color: black;
+  margin-left: 15%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-link-login {
+  margin-left: 550%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Media query for iPhone screens */
+@media only screen and (max-width: 480px) {
+  .nb {
+    padding: 1%;
+    font-size: 1.2em;
+  }
+  .navbrand {
+    font-size: 1.5rem;
+    margin-left: 2%;
+  }
+  .nav-link {
+    margin: 0 2%;
+  }
+  .nav-link-login {
+    margin-right: 2%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
