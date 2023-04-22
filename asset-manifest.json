@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/saltylocal/static/css/main.802af69d.css",
-    "main.js": "/saltylocal/static/js/main.545f30fb.js",
+    "main.css": "/saltylocal/static/css/main.53ef3d4c.css",
+    "main.js": "/saltylocal/static/js/main.b99187ac.js",
     "static/js/787.7c3c8d73.chunk.js": "/saltylocal/static/js/787.7c3c8d73.chunk.js",
     "static/media/baybridge.jpg": "/saltylocal/static/media/baybridge.71c88e486f3491102005.jpg",
     "index.html": "/saltylocal/index.html",
-    "main.802af69d.css.map": "/saltylocal/static/css/main.802af69d.css.map",
-    "main.545f30fb.js.map": "/saltylocal/static/js/main.545f30fb.js.map",
+    "main.53ef3d4c.css.map": "/saltylocal/static/css/main.53ef3d4c.css.map",
+    "main.b99187ac.js.map": "/saltylocal/static/js/main.b99187ac.js.map",
     "787.7c3c8d73.chunk.js.map": "/saltylocal/static/js/787.7c3c8d73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.802af69d.css",
-    "static/js/main.545f30fb.js"
+    "static/css/main.53ef3d4c.css",
+    "static/js/main.b99187ac.js"
   ]
 }
