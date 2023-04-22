@@ -18,7 +18,7 @@
   margin-left: 15%;
 }
 
-.navbar-toggler-icon {
+.navbar-toggle {
   color: #fff !important;
 }
 
@@ -88,6 +88,16 @@
   .navbrand {
     color: white;
   }
+
+  .navbar-toggle {
+    color: #fff !important;
+  }
+
+  .navbar-collapse.show .nav-link {
+    color: white;
+    margin: 0;
+  }
+  
   .article-container {
     height: 100vh;
     margin-top: 10%;
@@ -132,12 +142,12 @@
     height: 50px; /* adjust as needed */
   }
 
-  .navbar-light .navbar-collapse .nav-link {
-    color: #fff !important;
-  }
-
   .navbrand {
     color: white;
+  }
+
+  .navbar-toggle {
+    color: #fff !important;
   }
   
   .article-container {
@@ -185,6 +195,10 @@
   }
   .nav-link-login {
     margin-right: 2vw;
+  }
+
+  .navbar-toggle {
+    color: #fff !important;
   }
 
   .article-container {
