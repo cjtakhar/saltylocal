@@ -4,11 +4,13 @@
   font-size: 1.5em;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbrand {
   font-size: 2rem;
-  margin-left: 10vw;
 }
 
 .nav-link {
@@ -16,8 +18,8 @@
   margin-left: 15%;
 }
 
-.nav-link-login {
-  margin-left: 550%;
+.navbar-toggler-icon {
+  color: #fff !important;
 }
 
 .article-container {
@@ -128,6 +130,10 @@
   
   .navbar {
     height: 50px; /* adjust as needed */
+  }
+
+  .navbar-light .navbar-collapse .nav-link {
+    color: #fff !important;
   }
 
   .navbrand {
