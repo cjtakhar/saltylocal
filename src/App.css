@@ -9,8 +9,9 @@
 
 .navbrand {
   font-size: 2rem;
-  margin-left: 5%;
+  margin-left: 10vw;
 }
+
 .nav-link {
   color: black;
   margin-left: 15%;
@@ -26,26 +27,26 @@
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 75vh;
+  height: 100vh;
 }
 
 .articleOne {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 100%;
-  padding: 5%;
- 
+  width: 100vw;
+  height: 100vh;
 }
 
 .articleTitle {
-  margin-bottom: 20px;
+  margin: 20px 0;
+  text-align: center;
 }
 
 .articleImg {
-  margin-right: 20px;
   flex: 1;
-  max-width: 50%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .articleText {
@@ -54,6 +55,7 @@
   justify-content: space-between;
   flex: 1;
   max-width: 50%;
+  padding: 5%;
 }
 
 
@@ -64,7 +66,58 @@
   
   .article-container {
     height: 100vh;
+    margin-top: 10%;
   }
+  .articleOne {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .articleImg {
+    margin-right: 0;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+
+  .articleTitleWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .articleTitle {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .articleSubtitle {
+    font-size: 1rem;
+    color: #888;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px), 
+  (min-width: 320px) and (max-width: 375px), /* iPhone SE and 6/7/8 */
+  (min-width: 375px) and (max-width: 414px), /* iPhone 6+/7+/8+ */
+  (min-width: 414px) and (max-width: 575px) { /* iPhone X/XS/11 Pro, XR/11, XS Max/11 Pro Max */
+  
+  .navbar {
+    height: 50px; /* adjust as needed */
+  }
+  
+  .article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+
   .articleOne {
     flex-direction: column;
     align-items: center;
@@ -74,6 +127,10 @@
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     text-align: center;
+  }
+
+  .articleText {
+    max-width: 100%;
   }
 }
 
@@ -117,25 +174,42 @@
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .nb {
+    padding: 1vw;
+    font-size: 1.2rem;
+  }
+  .navbrand {
+    font-size: 1.5rem;
+    margin-left: 2vw;
+  }
+  .nav-link {
+    margin: 0 2vw;
+  }
+  .nav-link-login {
+    margin-right: 2vw;
+  }
+
+  .article-container {
+    height: 100vh;/* adjust as needed */
+  }
+
+  .articleImage {
+    height: 90vh;
+  }
+
   .articleOne {
     flex-direction: column;
     align-items: center;
   }
   
   .articleTitle {
-    margin-bottom: 20px;
-    text-align: left;
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
   }
-  
-  .articleImg {
-    margin-right: 20px;
-    flex: 1;
-    max-width: 50%;
-  }
-  
+
   .articleText {
-    flex: 1;
-    max-width: 50%;
+    max-width: 100%;
   }
 }
