@@ -2,7 +2,6 @@
   padding: 2%;
   font-family: 'Special Elite', cursive;
   font-size: 1.5em;
-  color: black;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   text-transform: uppercase;
 }
@@ -58,12 +57,35 @@
   padding: 5%;
 }
 
+.login-container {
+  border: solid 1px;
+  width: 35vw;
+  padding: 5%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.form-text {
+  padding: 5%;
+}
+
+.form-btn {
+  background-color: white;
+  width: 25vw;
+  margin-top: 5%;
+  color: black;
+  border: solid 1px black; 
+}
+
 
 @media only screen and (min-width: 576px) and (max-width: 767px), 
   (min-width: 320px) and (max-width: 375px), /* iPhone SE and 6/7/8 */
   (min-width: 375px) and (max-width: 414px), /* iPhone 6+/7+/8+ */
   (min-width: 414px) and (max-width: 575px) { /* iPhone X/XS/11 Pro, XR/11, XS Max/11 Pro Max */
   
+  .navbrand {
+    color: white;
+  }
   .article-container {
     height: 100vh;
     margin-top: 10%;
@@ -107,6 +129,10 @@
   .navbar {
     height: 50px; /* adjust as needed */
   }
+
+  .navbrand {
+    color: white;
+  }
   
   .article-container {
     display: flex;
@@ -127,6 +153,11 @@
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     text-align: center;
+  }
+
+  .articleImage {
+    height: 90vh;
+    width: 100vw;
   }
 
   .articleText {
@@ -151,51 +182,12 @@
   }
 
   .article-container {
-    height: 100vh;
-  }
-
-  .articleOne {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .articleTitle {
-    display: block;
-    text-align: center;
-    margin-bottom: 1.5rem;
-    font-size: 2rem;
-  }
-  
-  .articleIntro {
-    display: block;
-    text-align: justify;
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .nb {
-    padding: 1vw;
-    font-size: 1.2rem;
-  }
-  .navbrand {
-    font-size: 1.5rem;
-    margin-left: 2vw;
-  }
-  .nav-link {
-    margin: 0 2vw;
-  }
-  .nav-link-login {
-    margin-right: 2vw;
-  }
-
-  .article-container {
     height: 100vh;/* adjust as needed */
   }
 
   .articleImage {
-    height: 90vh;
+    height: 100vh;
+    width: 100vw;
   }
 
   .articleOne {
@@ -207,6 +199,13 @@
     display: block;
     text-align: center;
     margin-bottom: 1rem;
+  }
+
+  .articleIntro {
+    display: block;
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
   }
 
   .articleText {
